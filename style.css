@@ -1,5 +1,5 @@
 body {
-    font-family: 'Averta', Helvetica, Arial, sans-serif;
+    font-family: 'abeezee', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 }
 
 h1 {
-    font-family: 'Averta', Helvetica, Arial, sans-serif;
+    font-family: 'abeezee', Helvetica, Arial, sans-serif;
     font-size:3em;
     text-align:center;
 }
@@ -55,13 +55,13 @@ li {
 .number,
 .foottitle
 {
-    font-family: amaranth, 'Averta', Helvetica, Arial, sans-serif;
+    font-family: amaranth, 'abeezee', Helvetica, Arial, sans-serif;
     font-size:3em;
     color: #c00;
 }
 
 .subtitle {
-    font-family: amaranth, 'Averta', Helvetica, Arial, sans-serif;
+    font-family: amaranth, 'abeezee', Helvetica, Arial, sans-serif;
     font-size:1.5em;
 }
 
@@ -71,6 +71,6 @@ li {
 }
 
 @font-face {
-    font-family: Averta;
-    src: url("AvertaDemo-Regular.otf") format("opentype");
+    font-family: abeezee;
+    src: url("ABeeZee-Regular.otf") format("opentype");
 }
