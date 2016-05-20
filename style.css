@@ -55,19 +55,19 @@ li {
 .number,
 .foottitle
 {
-    font-family: Quenda-Medium, 'Averta', Helvetica, Arial, sans-serif;
+    font-family: amaranth, 'Averta', Helvetica, Arial, sans-serif;
     font-size:3em;
     color: #c00;
 }
 
 .subtitle {
-    font-family: Quenda-Medium, 'Averta', Helvetica, Arial, sans-serif;
+    font-family: amaranth, 'Averta', Helvetica, Arial, sans-serif;
     font-size:1.5em;
 }
 
 @font-face {
-    font-family: Quenda-Medium;
-    src: url("Quenda-Medium.otf") format("opentype");
+    font-family: amaranth;
+    src: url("Amaranth-Regular.otf") format("opentype");
 }
 
 @font-face {
