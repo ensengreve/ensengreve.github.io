@@ -1,8 +1,9 @@
 body {
+    background-color:#f8f8ff;
     font-family: 'abeezee', Helvetica, Arial, sans-serif;
 }
 
-a {
+a.shylink {
     text-decoration:none;
     color:black;
 }
@@ -12,7 +13,6 @@ a {
     max-width:60em;
     margin:auto;
     padding:3px 15px 3px 15px;
-    background-color:#fff;
 }
 
 .bg{
@@ -26,6 +26,10 @@ h1 {
     font-family: 'abeezee', Helvetica, Arial, sans-serif;
     font-size:3em;
     text-align:center;
+}
+h2 {
+    font-family: 'abeezee', Helvetica, Arial, sans-serif;
+    font-size:2em;
 }
 
 p,
@@ -46,8 +50,27 @@ li {
     text-align: center;
 }
 
+.action tr td
+{
+    width: 40em;
+    text-align: center;
+}
+
+.action tr>td>a
+{
+    border-bottom:#080 1px solid;
+    border-right:#080 1px solid;
+    border-top:#4b4 1px solid;
+    border-left:#4b4 1px solid;
+    background-color:#8f8;
+    color:#080;
+    text-decoration:none;
+    padding:0.7em 0.9em 0.7em 0.9em;
+}
+
 .stats,
-.foot
+.foot,
+.action
 {
     margin:2em
 }
@@ -69,6 +92,25 @@ li {
 .subtitle {
     font-family: amaranth, 'abeezee', Helvetica, Arial, sans-serif;
     font-size:1.2em;
+}
+
+div.tribune {
+    background-color:#eef;
+    padding:0.1em 1em 0.5em 1em;
+}
+
+table.email tr>td {
+    padding: 0.5em;
+    vertical-align: top;
+    border: 1px solid black;
+}
+table.email {
+    background-color:#eef;
+    border-collapse: collapse;
+    margin:2em 4em 2em 4em;
+}
+.placeholder {
+    background-color:#ccc;
 }
 
 @font-face {
