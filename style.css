@@ -50,48 +50,33 @@ li {
     text-align: center;
 }
 
-.action tr td
-{
-    width: 40em;
+.action {
     text-align: center;
+    margin-bottom:2em;
+    line-height: 3em;
 }
 
-.action tr>td>a
+.action span
+{
+    text-align: center;
+    margin-left:4px;
+    margin-right:4px;
+}
+
+.action span>a
 {
     text-decoration:none;
+    font-weight:bold;
     padding:0.7em 0.9em 0.7em 0.9em;
-    
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
-    
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
     border-radius: 4px;
-    -webkit-appearance: button;
-    
-    font-size:1em;
 }
 
+.action span a.act { background-color: #5cb85c; }
+.action span a.info { background-color: #5bc0de; }
+
 .stats,
-.foot,
-.action
+.foot
 {
     margin:2em
 }
@@ -134,6 +119,10 @@ table.email {
     background-color:#ccc;
 }
 
+img.banniere {
+    width:100%;
+}
+
 @font-face {
     font-family: amaranth;
     src: url("Amaranth-Regular.otf") format("opentype");
@@ -143,3 +132,4 @@ table.email {
     font-family: abeezee;
     src: url("ABeeZee-Regular.otf") format("opentype");
 }
+
