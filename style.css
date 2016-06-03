@@ -61,6 +61,7 @@ li {
     text-align: center;
     margin-left:4px;
     margin-right:4px;
+    white-space: pre;
 }
 
 .action span>a
